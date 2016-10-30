@@ -18,6 +18,7 @@ setup(
     keywords='bitcoin btc litecoin namecoin dogecoin cryptocurrency',
     packages=find_packages(),
     zip_safe=False,
+    use_2to3=True,
     install_requires=[
         'requests>=2.4.3',
         'ecdsa>=0.13',
